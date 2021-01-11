@@ -34,11 +34,13 @@ MCC measures the correlation between the predicted and the actual values of the 
 * If MCC=1: Predicted and Actual values are highly correlated and are in complete agreement.
 * If MCC=0: Correlation is equivalent to random prediction.
 
-Formula for MCC is as shown below:
- 
- <img src="https://bit.ly/3byxLFf" align="center" border="0" alt="MCC = \frac{(TP * TN) - (FP * FN)}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(TN+FN)}} " width="399" height="51" />
-
 Source: https://www.kaggle.com/c/vsb-power-line-fault-detection/overview/evaluation
 
 ## References
 * S. Misák, J. Fulnecek, T. Vantuch, T. Buriánek and T. Jezowicz, "A complex classification approach of partial discharges from covered conductors in real environment," in IEEE Transactions on Dielectrics and Electrical Insulation, vol. 24, no. 2, pp. 1097-1104, April 2017, doi: 10.1109/TDEI.2017.006135.
+* [Analysis of Time Series Data](http://dspace.vsb.cz/bitstream/handle/10084/133114/VAN431_FEI_P1807_1801V001_2018.pdf)
+* [1st place solution](https://www.kaggle.com/mark4h/vsb-1st-place-solution)
+* [2nd place solution](https://www.kaggle.com/c/vsb-power-line-fault-detection/discussion/86616)
+* [Discrete Wavelet Transform](https://www.kaggle.com/jackvial/dwt-signal-denoising)
+* [Stacked Attention Bi-LSTM](https://www.kaggle.com/tarunpaparaju/vsb-competition-attention-bilstm-with-features?scriptVersionId=10690570)
+
